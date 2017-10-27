@@ -872,7 +872,7 @@ function factory(ReactComponent, isValidElement, ReactNoopUpdateQueue) {
 module.exports = factory;
 
 }).call(this,require('_process'))
-},{"_process":36,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":14,"fbjs/lib/warning":20,"object-assign":21}],2:[function(require,module,exports){
+},{"_process":37,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":14,"fbjs/lib/warning":20,"object-assign":21}],2:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -979,7 +979,7 @@ var EventListener = {
 
 module.exports = EventListener;
 }).call(this,require('_process'))
-},{"./emptyFunction":8,"_process":36}],4:[function(require,module,exports){
+},{"./emptyFunction":8,"_process":37}],4:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1176,7 +1176,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = emptyObject;
 }).call(this,require('_process'))
-},{"_process":36}],10:[function(require,module,exports){
+},{"_process":37}],10:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1362,7 +1362,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 
 module.exports = invariant;
 }).call(this,require('_process'))
-},{"_process":36}],15:[function(require,module,exports){
+},{"_process":37}],15:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1592,7 +1592,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = warning;
 }).call(this,require('_process'))
-},{"./emptyFunction":8,"_process":36}],21:[function(require,module,exports){
+},{"./emptyFunction":8,"_process":37}],21:[function(require,module,exports){
 /*
 object-assign
 (c) Sindre Sorhus
@@ -1747,7 +1747,7 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 module.exports = checkPropTypes;
 
 }).call(this,require('_process'))
-},{"./lib/ReactPropTypesSecret":26,"_process":36,"fbjs/lib/invariant":14,"fbjs/lib/warning":20}],23:[function(require,module,exports){
+},{"./lib/ReactPropTypesSecret":26,"_process":37,"fbjs/lib/invariant":14,"fbjs/lib/warning":20}],23:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -2353,7 +2353,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 };
 
 }).call(this,require('_process'))
-},{"./checkPropTypes":22,"./lib/ReactPropTypesSecret":26,"_process":36,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":14,"fbjs/lib/warning":20,"object-assign":21}],25:[function(require,module,exports){
+},{"./checkPropTypes":22,"./lib/ReactPropTypesSecret":26,"_process":37,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":14,"fbjs/lib/warning":20,"object-assign":21}],25:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -2385,7 +2385,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./factoryWithThrowingShims":23,"./factoryWithTypeCheckers":24,"_process":36}],26:[function(require,module,exports){
+},{"./factoryWithThrowingShims":23,"./factoryWithTypeCheckers":24,"_process":37}],26:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -19624,7 +19624,7 @@ module.exports = ReactDOMFiberEntry;
 }
 
 }).call(this,require('_process'))
-},{"_process":36,"fbjs/lib/EventListener":3,"fbjs/lib/ExecutionEnvironment":4,"fbjs/lib/camelizeStyleName":6,"fbjs/lib/containsNode":7,"fbjs/lib/emptyFunction":8,"fbjs/lib/emptyObject":9,"fbjs/lib/focusNode":10,"fbjs/lib/getActiveElement":11,"fbjs/lib/hyphenateStyleName":13,"fbjs/lib/invariant":14,"fbjs/lib/performanceNow":18,"fbjs/lib/shallowEqual":19,"fbjs/lib/warning":20,"object-assign":21,"prop-types":25,"prop-types/checkPropTypes":22,"react":32}],28:[function(require,module,exports){
+},{"_process":37,"fbjs/lib/EventListener":3,"fbjs/lib/ExecutionEnvironment":4,"fbjs/lib/camelizeStyleName":6,"fbjs/lib/containsNode":7,"fbjs/lib/emptyFunction":8,"fbjs/lib/emptyObject":9,"fbjs/lib/focusNode":10,"fbjs/lib/getActiveElement":11,"fbjs/lib/hyphenateStyleName":13,"fbjs/lib/invariant":14,"fbjs/lib/performanceNow":18,"fbjs/lib/shallowEqual":19,"fbjs/lib/warning":20,"object-assign":21,"prop-types":25,"prop-types/checkPropTypes":22,"react":32}],28:[function(require,module,exports){
 /*
  React v16.0.0
  react-dom.production.min.js
@@ -19924,7 +19924,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react-dom.development.js":27,"./cjs/react-dom.production.min.js":28,"_process":36}],30:[function(require,module,exports){
+},{"./cjs/react-dom.development.js":27,"./cjs/react-dom.production.min.js":28,"_process":37}],30:[function(require,module,exports){
 (function (process){
 /** @license React v16.0.0
  * react.development.js
@@ -21626,7 +21626,7 @@ module.exports = ReactEntry;
 }
 
 }).call(this,require('_process'))
-},{"_process":36,"fbjs/lib/emptyFunction":8,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":14,"fbjs/lib/warning":20,"object-assign":21,"prop-types/checkPropTypes":22}],31:[function(require,module,exports){
+},{"_process":37,"fbjs/lib/emptyFunction":8,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":14,"fbjs/lib/warning":20,"object-assign":21,"prop-types/checkPropTypes":22}],31:[function(require,module,exports){
 /*
  React v16.0.0
  react.production.min.js
@@ -21662,12 +21662,12 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react.development.js":30,"./cjs/react.production.min.js":31,"_process":36}],33:[function(require,module,exports){
-var React = require('react');
+},{"./cjs/react.development.js":30,"./cjs/react.production.min.js":31,"_process":37}],33:[function(require,module,exports){
 
-var ChatMessage = require('./ChatMessage');
 var createReactClass = require('create-react-class');
 var React = require('react');
+
+var MessageList = require('./MessageList');
 
 module.exports = createReactClass({
   displayName: 'exports',
@@ -21682,7 +21682,7 @@ module.exports = createReactClass({
   submit: function (ev) {
     ev.preventDefault();
 
-    var newMessage = React.createElement(ChatMessage, { message: this.state.text });
+    var newMessage = this.state.text;
 
     this.setState({
       messages: this.state.messages.concat([newMessage]),
@@ -21700,11 +21700,7 @@ module.exports = createReactClass({
     return React.createElement(
       'div',
       null,
-      React.createElement(
-        'div',
-        null,
-        this.state.messages
-      ),
+      React.createElement(MessageList, { messages: this.state.messages }),
       React.createElement(
         'form',
         { onSubmit: this.submit },
@@ -21715,9 +21711,10 @@ module.exports = createReactClass({
   }
 });
 
-},{"./ChatMessage":34,"create-react-class":2,"react":32}],34:[function(require,module,exports){
+},{"./MessageList":35,"create-react-class":2,"react":32}],34:[function(require,module,exports){
 var createReactClass = require('create-react-class');
 var React = require('react');
+
 module.exports = createReactClass({
   displayName: 'exports',
 
@@ -21731,6 +21728,28 @@ module.exports = createReactClass({
 });
 
 },{"create-react-class":2,"react":32}],35:[function(require,module,exports){
+var React = require('react');
+var createReactClass = require('create-react-class');
+
+var ChatMessage = require('./ChatMessage');
+
+module.exports = createReactClass({
+  displayName: 'exports',
+
+  render: function () {
+    var messages = this.props.messages.map(function (msg) {
+      return React.createElement(ChatMessage, { message: msg });
+    });
+
+    return React.createElement(
+      'div',
+      null,
+      messages
+    );
+  }
+});
+
+},{"./ChatMessage":34,"create-react-class":2,"react":32}],36:[function(require,module,exports){
 var ReactDOM = require('react-dom');
 var React = require('react');
 
@@ -21738,7 +21757,7 @@ var Chat = require('./Chat');
 
 ReactDOM.render(React.createElement(Chat, null), document.getElementById('app'));
 
-},{"./Chat":33,"react":32,"react-dom":29}],36:[function(require,module,exports){
+},{"./Chat":33,"react":32,"react-dom":29}],37:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -21924,4 +21943,4 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}]},{},[35]);
+},{}]},{},[36]);
