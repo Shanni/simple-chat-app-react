@@ -872,7 +872,7 @@ function factory(ReactComponent, isValidElement, ReactNoopUpdateQueue) {
 module.exports = factory;
 
 }).call(this,require('_process'))
-},{"_process":37,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":14,"fbjs/lib/warning":20,"object-assign":21}],2:[function(require,module,exports){
+},{"_process":40,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":14,"fbjs/lib/warning":20,"object-assign":21}],2:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -979,7 +979,7 @@ var EventListener = {
 
 module.exports = EventListener;
 }).call(this,require('_process'))
-},{"./emptyFunction":8,"_process":37}],4:[function(require,module,exports){
+},{"./emptyFunction":8,"_process":40}],4:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1176,7 +1176,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = emptyObject;
 }).call(this,require('_process'))
-},{"_process":37}],10:[function(require,module,exports){
+},{"_process":40}],10:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -1362,7 +1362,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 
 module.exports = invariant;
 }).call(this,require('_process'))
-},{"_process":37}],15:[function(require,module,exports){
+},{"_process":40}],15:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1592,7 +1592,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = warning;
 }).call(this,require('_process'))
-},{"./emptyFunction":8,"_process":37}],21:[function(require,module,exports){
+},{"./emptyFunction":8,"_process":40}],21:[function(require,module,exports){
 /*
 object-assign
 (c) Sindre Sorhus
@@ -1747,7 +1747,7 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 module.exports = checkPropTypes;
 
 }).call(this,require('_process'))
-},{"./lib/ReactPropTypesSecret":26,"_process":37,"fbjs/lib/invariant":14,"fbjs/lib/warning":20}],23:[function(require,module,exports){
+},{"./lib/ReactPropTypesSecret":26,"_process":40,"fbjs/lib/invariant":14,"fbjs/lib/warning":20}],23:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -2353,7 +2353,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 };
 
 }).call(this,require('_process'))
-},{"./checkPropTypes":22,"./lib/ReactPropTypesSecret":26,"_process":37,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":14,"fbjs/lib/warning":20,"object-assign":21}],25:[function(require,module,exports){
+},{"./checkPropTypes":22,"./lib/ReactPropTypesSecret":26,"_process":40,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":14,"fbjs/lib/warning":20,"object-assign":21}],25:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -2385,7 +2385,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./factoryWithThrowingShims":23,"./factoryWithTypeCheckers":24,"_process":37}],26:[function(require,module,exports){
+},{"./factoryWithThrowingShims":23,"./factoryWithTypeCheckers":24,"_process":40}],26:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -19624,7 +19624,7 @@ module.exports = ReactDOMFiberEntry;
 }
 
 }).call(this,require('_process'))
-},{"_process":37,"fbjs/lib/EventListener":3,"fbjs/lib/ExecutionEnvironment":4,"fbjs/lib/camelizeStyleName":6,"fbjs/lib/containsNode":7,"fbjs/lib/emptyFunction":8,"fbjs/lib/emptyObject":9,"fbjs/lib/focusNode":10,"fbjs/lib/getActiveElement":11,"fbjs/lib/hyphenateStyleName":13,"fbjs/lib/invariant":14,"fbjs/lib/performanceNow":18,"fbjs/lib/shallowEqual":19,"fbjs/lib/warning":20,"object-assign":21,"prop-types":25,"prop-types/checkPropTypes":22,"react":32}],28:[function(require,module,exports){
+},{"_process":40,"fbjs/lib/EventListener":3,"fbjs/lib/ExecutionEnvironment":4,"fbjs/lib/camelizeStyleName":6,"fbjs/lib/containsNode":7,"fbjs/lib/emptyFunction":8,"fbjs/lib/emptyObject":9,"fbjs/lib/focusNode":10,"fbjs/lib/getActiveElement":11,"fbjs/lib/hyphenateStyleName":13,"fbjs/lib/invariant":14,"fbjs/lib/performanceNow":18,"fbjs/lib/shallowEqual":19,"fbjs/lib/warning":20,"object-assign":21,"prop-types":25,"prop-types/checkPropTypes":22,"react":32}],28:[function(require,module,exports){
 /*
  React v16.0.0
  react-dom.production.min.js
@@ -19924,7 +19924,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react-dom.development.js":27,"./cjs/react-dom.production.min.js":28,"_process":37}],30:[function(require,module,exports){
+},{"./cjs/react-dom.development.js":27,"./cjs/react-dom.production.min.js":28,"_process":40}],30:[function(require,module,exports){
 (function (process){
 /** @license React v16.0.0
  * react.development.js
@@ -21626,7 +21626,7 @@ module.exports = ReactEntry;
 }
 
 }).call(this,require('_process'))
-},{"_process":37,"fbjs/lib/emptyFunction":8,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":14,"fbjs/lib/warning":20,"object-assign":21,"prop-types/checkPropTypes":22}],31:[function(require,module,exports){
+},{"_process":40,"fbjs/lib/emptyFunction":8,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":14,"fbjs/lib/warning":20,"object-assign":21,"prop-types/checkPropTypes":22}],31:[function(require,module,exports){
 /*
  React v16.0.0
  react.production.min.js
@@ -21662,38 +21662,40 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 }).call(this,require('_process'))
-},{"./cjs/react.development.js":30,"./cjs/react.production.min.js":31,"_process":37}],33:[function(require,module,exports){
+},{"./cjs/react.development.js":30,"./cjs/react.production.min.js":31,"_process":40}],33:[function(require,module,exports){
 
 var createReactClass = require('create-react-class');
 var React = require('react');
 
 var MessageList = require('./MessageList');
+var MessageForm = require('./MessageForm');
+var MessageStore = require('./MessageStore');
 
 module.exports = createReactClass({
   displayName: 'exports',
 
   getInitialState: function () {
     return {
-      text: '',
-      messages: []
+      messages: MessageStore.getMessages()
     };
   },
 
-  submit: function (ev) {
-    ev.preventDefault();
+  componentWillMount: function () {
+    MessageStore.subscribe(this.updateMesssages);
+  },
 
-    var newMessage = this.state.text;
+  componentWillUnMount: function () {
+    MessageStore.unsubscribe(this.updateMesssages);
+  },
 
+  updateMesssages: function () {
     this.setState({
-      messages: this.state.messages.concat([newMessage]),
-      text: ''
+      messages: MessageStore.getMessages()
     });
   },
 
-  updateInput: function (ev) {
-    this.setState({
-      text: ev.target.value
-    });
+  onSend: function (newMessage) {
+    MessageStore.newMessage(newMessage);
   },
 
   render: function () {
@@ -21701,17 +21703,12 @@ module.exports = createReactClass({
       'div',
       null,
       React.createElement(MessageList, { messages: this.state.messages }),
-      React.createElement(
-        'form',
-        { onSubmit: this.submit },
-        React.createElement('input', { onChange: this.updateInput, value: this.state.text, type: 'text', placeholder: 'Your message' }),
-        React.createElement('input', { type: 'submit', value: 'Send' })
-      )
+      React.createElement(MessageForm, { onSend: this.onSend })
     );
   }
 });
 
-},{"./MessageList":35,"create-react-class":2,"react":32}],34:[function(require,module,exports){
+},{"./MessageForm":35,"./MessageList":36,"./MessageStore":37,"create-react-class":2,"react":32}],34:[function(require,module,exports){
 var createReactClass = require('create-react-class');
 var React = require('react');
 
@@ -21728,6 +21725,43 @@ module.exports = createReactClass({
 });
 
 },{"create-react-class":2,"react":32}],35:[function(require,module,exports){
+var React = require('react');
+var createReactClass = require('create-react-class');
+
+module.exports = createReactClass({
+  displayName: 'exports',
+
+  getInitialState: function () {
+    return {
+      input: ''
+    };
+  },
+
+  submit: function (ev) {
+    ev.preventDefault();
+
+    this.props.onSend(this.state.input);
+
+    this.setState({
+      input: ''
+    });
+  },
+
+  updateInput: function (ev) {
+    this.setState({ input: ev.target.value });
+  },
+
+  render: function () {
+    return React.createElement(
+      'form',
+      { onSubmit: this.submit },
+      React.createElement('input', { value: this.state.input, onChange: this.updateInput, type: 'text' }),
+      React.createElement('input', { type: 'submit', value: 'Send' })
+    );
+  }
+});
+
+},{"create-react-class":2,"react":32}],36:[function(require,module,exports){
 var React = require('react');
 var createReactClass = require('create-react-class');
 
@@ -21749,7 +21783,33 @@ module.exports = createReactClass({
   }
 });
 
-},{"./ChatMessage":34,"create-react-class":2,"react":32}],36:[function(require,module,exports){
+},{"./ChatMessage":34,"create-react-class":2,"react":32}],37:[function(require,module,exports){
+var EventEmitter = require('events').EventEmitter;
+
+var emitter = new EventEmitter();
+
+var messages = [];
+
+module.exports = {
+  getMessages: function () {
+    return messages.concat();
+  },
+
+  subscribe: function (callback) {
+    emitter.addListener('update', callback);
+  },
+
+  unsubscribe: function (callback) {
+    emitter.removeListener('update', callback);
+  },
+
+  newMessage: function (message) {
+    messages.push(message);
+    emitter.emit('update');
+  }
+};
+
+},{"events":39}],38:[function(require,module,exports){
 var ReactDOM = require('react-dom');
 var React = require('react');
 
@@ -21757,7 +21817,311 @@ var Chat = require('./Chat');
 
 ReactDOM.render(React.createElement(Chat, null), document.getElementById('app'));
 
-},{"./Chat":33,"react":32,"react-dom":29}],37:[function(require,module,exports){
+},{"./Chat":33,"react":32,"react-dom":29}],39:[function(require,module,exports){
+// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+function EventEmitter() {
+  this._events = this._events || {};
+  this._maxListeners = this._maxListeners || undefined;
+}
+module.exports = EventEmitter;
+
+// Backwards-compat with node 0.10.x
+EventEmitter.EventEmitter = EventEmitter;
+
+EventEmitter.prototype._events = undefined;
+EventEmitter.prototype._maxListeners = undefined;
+
+// By default EventEmitters will print a warning if more than 10 listeners are
+// added to it. This is a useful default which helps finding memory leaks.
+EventEmitter.defaultMaxListeners = 10;
+
+// Obviously not all Emitters should be limited to 10. This function allows
+// that to be increased. Set to zero for unlimited.
+EventEmitter.prototype.setMaxListeners = function(n) {
+  if (!isNumber(n) || n < 0 || isNaN(n))
+    throw TypeError('n must be a positive number');
+  this._maxListeners = n;
+  return this;
+};
+
+EventEmitter.prototype.emit = function(type) {
+  var er, handler, len, args, i, listeners;
+
+  if (!this._events)
+    this._events = {};
+
+  // If there is no 'error' event listener then throw.
+  if (type === 'error') {
+    if (!this._events.error ||
+        (isObject(this._events.error) && !this._events.error.length)) {
+      er = arguments[1];
+      if (er instanceof Error) {
+        throw er; // Unhandled 'error' event
+      } else {
+        // At least give some kind of context to the user
+        var err = new Error('Uncaught, unspecified "error" event. (' + er + ')');
+        err.context = er;
+        throw err;
+      }
+    }
+  }
+
+  handler = this._events[type];
+
+  if (isUndefined(handler))
+    return false;
+
+  if (isFunction(handler)) {
+    switch (arguments.length) {
+      // fast cases
+      case 1:
+        handler.call(this);
+        break;
+      case 2:
+        handler.call(this, arguments[1]);
+        break;
+      case 3:
+        handler.call(this, arguments[1], arguments[2]);
+        break;
+      // slower
+      default:
+        args = Array.prototype.slice.call(arguments, 1);
+        handler.apply(this, args);
+    }
+  } else if (isObject(handler)) {
+    args = Array.prototype.slice.call(arguments, 1);
+    listeners = handler.slice();
+    len = listeners.length;
+    for (i = 0; i < len; i++)
+      listeners[i].apply(this, args);
+  }
+
+  return true;
+};
+
+EventEmitter.prototype.addListener = function(type, listener) {
+  var m;
+
+  if (!isFunction(listener))
+    throw TypeError('listener must be a function');
+
+  if (!this._events)
+    this._events = {};
+
+  // To avoid recursion in the case that type === "newListener"! Before
+  // adding it to the listeners, first emit "newListener".
+  if (this._events.newListener)
+    this.emit('newListener', type,
+              isFunction(listener.listener) ?
+              listener.listener : listener);
+
+  if (!this._events[type])
+    // Optimize the case of one listener. Don't need the extra array object.
+    this._events[type] = listener;
+  else if (isObject(this._events[type]))
+    // If we've already got an array, just append.
+    this._events[type].push(listener);
+  else
+    // Adding the second element, need to change to array.
+    this._events[type] = [this._events[type], listener];
+
+  // Check for listener leak
+  if (isObject(this._events[type]) && !this._events[type].warned) {
+    if (!isUndefined(this._maxListeners)) {
+      m = this._maxListeners;
+    } else {
+      m = EventEmitter.defaultMaxListeners;
+    }
+
+    if (m && m > 0 && this._events[type].length > m) {
+      this._events[type].warned = true;
+      console.error('(node) warning: possible EventEmitter memory ' +
+                    'leak detected. %d listeners added. ' +
+                    'Use emitter.setMaxListeners() to increase limit.',
+                    this._events[type].length);
+      if (typeof console.trace === 'function') {
+        // not supported in IE 10
+        console.trace();
+      }
+    }
+  }
+
+  return this;
+};
+
+EventEmitter.prototype.on = EventEmitter.prototype.addListener;
+
+EventEmitter.prototype.once = function(type, listener) {
+  if (!isFunction(listener))
+    throw TypeError('listener must be a function');
+
+  var fired = false;
+
+  function g() {
+    this.removeListener(type, g);
+
+    if (!fired) {
+      fired = true;
+      listener.apply(this, arguments);
+    }
+  }
+
+  g.listener = listener;
+  this.on(type, g);
+
+  return this;
+};
+
+// emits a 'removeListener' event iff the listener was removed
+EventEmitter.prototype.removeListener = function(type, listener) {
+  var list, position, length, i;
+
+  if (!isFunction(listener))
+    throw TypeError('listener must be a function');
+
+  if (!this._events || !this._events[type])
+    return this;
+
+  list = this._events[type];
+  length = list.length;
+  position = -1;
+
+  if (list === listener ||
+      (isFunction(list.listener) && list.listener === listener)) {
+    delete this._events[type];
+    if (this._events.removeListener)
+      this.emit('removeListener', type, listener);
+
+  } else if (isObject(list)) {
+    for (i = length; i-- > 0;) {
+      if (list[i] === listener ||
+          (list[i].listener && list[i].listener === listener)) {
+        position = i;
+        break;
+      }
+    }
+
+    if (position < 0)
+      return this;
+
+    if (list.length === 1) {
+      list.length = 0;
+      delete this._events[type];
+    } else {
+      list.splice(position, 1);
+    }
+
+    if (this._events.removeListener)
+      this.emit('removeListener', type, listener);
+  }
+
+  return this;
+};
+
+EventEmitter.prototype.removeAllListeners = function(type) {
+  var key, listeners;
+
+  if (!this._events)
+    return this;
+
+  // not listening for removeListener, no need to emit
+  if (!this._events.removeListener) {
+    if (arguments.length === 0)
+      this._events = {};
+    else if (this._events[type])
+      delete this._events[type];
+    return this;
+  }
+
+  // emit removeListener for all listeners on all events
+  if (arguments.length === 0) {
+    for (key in this._events) {
+      if (key === 'removeListener') continue;
+      this.removeAllListeners(key);
+    }
+    this.removeAllListeners('removeListener');
+    this._events = {};
+    return this;
+  }
+
+  listeners = this._events[type];
+
+  if (isFunction(listeners)) {
+    this.removeListener(type, listeners);
+  } else if (listeners) {
+    // LIFO order
+    while (listeners.length)
+      this.removeListener(type, listeners[listeners.length - 1]);
+  }
+  delete this._events[type];
+
+  return this;
+};
+
+EventEmitter.prototype.listeners = function(type) {
+  var ret;
+  if (!this._events || !this._events[type])
+    ret = [];
+  else if (isFunction(this._events[type]))
+    ret = [this._events[type]];
+  else
+    ret = this._events[type].slice();
+  return ret;
+};
+
+EventEmitter.prototype.listenerCount = function(type) {
+  if (this._events) {
+    var evlistener = this._events[type];
+
+    if (isFunction(evlistener))
+      return 1;
+    else if (evlistener)
+      return evlistener.length;
+  }
+  return 0;
+};
+
+EventEmitter.listenerCount = function(emitter, type) {
+  return emitter.listenerCount(type);
+};
+
+function isFunction(arg) {
+  return typeof arg === 'function';
+}
+
+function isNumber(arg) {
+  return typeof arg === 'number';
+}
+
+function isObject(arg) {
+  return typeof arg === 'object' && arg !== null;
+}
+
+function isUndefined(arg) {
+  return arg === void 0;
+}
+
+},{}],40:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -21943,4 +22307,4 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}]},{},[36]);
+},{}]},{},[38]);
